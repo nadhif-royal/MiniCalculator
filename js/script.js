@@ -71,7 +71,7 @@ document.getElementById('kelilingJajarGenjangForm').addEventListener('submit', f
     }
 
     const keliling = 2 * (sisiA + sisiB);
-    document.getElementById('kelilingJajarGenjangResult').textContent = `K = 2 x (${sisiA} + ${sisiB}) = ${keliling}`; // Menambahkan langkah perhitungan
+    document.getElementById('kelilingJajarGenjangResult').textContent = `K = 2 x (${sisiA} + ${sisiB}) = ${keliling}`;
 });
 
 function resetForm(formId) {
